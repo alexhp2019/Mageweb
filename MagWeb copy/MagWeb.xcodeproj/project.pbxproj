@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		114CD35422E1FEE500A7007D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CD35322E1FEE500A7007D /* AppDelegate.swift */; };
+		114CD35622E1FEE500A7007D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CD35522E1FEE500A7007D /* ViewController.swift */; };
+		114CD35922E1FEE500A7007D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 114CD35722E1FEE500A7007D /* Main.storyboard */; };
+		114CD35B22E1FEE500A7007D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 114CD35A22E1FEE500A7007D /* Assets.xcassets */; };
+		114CD35E22E1FEE500A7007D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 114CD35C22E1FEE500A7007D /* LaunchScreen.storyboard */; };
+		114CD36922E1FEE500A7007D /* MagWebTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CD36822E1FEE500A7007D /* MagWebTests.swift */; };
+		114CD37422E1FEE500A7007D /* MagWebUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114CD37322E1FEE500A7007D /* MagWebUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		114CD36522E1FEE500A7007D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 114CD34822E1FEE500A7007D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 114CD34F22E1FEE500A7007D;
+			remoteInfo = MagWeb;
+		};
+		114CD37022E1FEE500A7007D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 114CD34822E1FEE500A7007D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 114CD34F22E1FEE500A7007D;
+			remoteInfo = MagWeb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		114CD35022E1FEE500A7007D /* MagWeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagWeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		114CD35322E1FEE500A7007D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		114CD35522E1FEE500A7007D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		114CD35822E1FEE500A7007D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		114CD35A22E1FEE500A7007D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		114CD35D22E1FEE500A7007D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		114CD35F22E1FEE500A7007D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		114CD36422E1FEE500A7007D /* MagWebTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagWebTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		114CD36822E1FEE500A7007D /* MagWebTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagWebTests.swift; sourceTree = "<group>"; };
+		114CD36A22E1FEE500A7007D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		114CD36F22E1FEE500A7007D /* MagWebUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagWebUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		114CD37322E1FEE500A7007D /* MagWebUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagWebUITests.swift; sourceTree = "<group>"; };
+		114CD37522E1FEE500A7007D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		114CD34D22E1FEE500A7007D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		114CD36122E1FEE500A7007D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		114CD36C22E1FEE500A7007D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		114CD34722E1FEE500A7007D = {
+			isa = PBXGroup;
+			children = (
+				114CD35222E1FEE500A7007D /* MagWeb */,
+				114CD36722E1FEE500A7007D /* MagWebTests */,
+				114CD37222E1FEE500A7007D /* MagWebUITests */,
+				114CD35122E1FEE500A7007D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		114CD35122E1FEE500A7007D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				114CD35022E1FEE500A7007D /* MagWeb.app */,
+				114CD36422E1FEE500A7007D /* MagWebTests.xctest */,
+				114CD36F22E1FEE500A7007D /* MagWebUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		114CD35222E1FEE500A7007D /* MagWeb */ = {
+			isa = PBXGroup;
+			children = (
+				114CD35322E1FEE500A7007D /* AppDelegate.swift */,
+				114CD35522E1FEE500A7007D /* ViewController.swift */,
+				114CD35722E1FEE500A7007D /* Main.storyboard */,
+				114CD35A22E1FEE500A7007D /* Assets.xcassets */,
+				114CD35C22E1FEE500A7007D /* LaunchScreen.storyboard */,
+				114CD35F22E1FEE500A7007D /* Info.plist */,
+			);
+			path = MagWeb;
+			sourceTree = "<group>";
+		};
+		114CD36722E1FEE500A7007D /* MagWebTests */ = {
+			isa = PBXGroup;
+			children = (
+				114CD36822E1FEE500A7007D /* MagWebTests.swift */,
+				114CD36A22E1FEE500A7007D /* Info.plist */,
+			);
+			path = MagWebTests;
+			sourceTree = "<group>";
+		};
+		114CD37222E1FEE500A7007D /* MagWebUITests */ = {
+			isa = PBXGroup;
+			children = (
+				114CD37322E1FEE500A7007D /* MagWebUITests.swift */,
+				114CD37522E1FEE500A7007D /* Info.plist */,
+			);
+			path = MagWebUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		114CD34F22E1FEE500A7007D /* MagWeb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 114CD37822E1FEE500A7007D /* Build configuration list for PBXNativeTarget "MagWeb" */;
+			buildPhases = (
+				114CD34C22E1FEE500A7007D /* Sources */,
+				114CD34D22E1FEE500A7007D /* Frameworks */,
+				114CD34E22E1FEE500A7007D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagWeb;
+			productName = MagWeb;
+			productReference = 114CD35022E1FEE500A7007D /* MagWeb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		114CD36322E1FEE500A7007D /* MagWebTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 114CD37B22E1FEE500A7007D /* Build configuration list for PBXNativeTarget "MagWebTests" */;
+			buildPhases = (
+				114CD36022E1FEE500A7007D /* Sources */,
+				114CD36122E1FEE500A7007D /* Frameworks */,
+				114CD36222E1FEE500A7007D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				114CD36622E1FEE500A7007D /* PBXTargetDependency */,
+			);
+			name = MagWebTests;
+			productName = MagWebTests;
+			productReference = 114CD36422E1FEE500A7007D /* MagWebTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		114CD36E22E1FEE500A7007D /* MagWebUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 114CD37E22E1FEE500A7007D /* Build configuration list for PBXNativeTarget "MagWebUITests" */;
+			buildPhases = (
+				114CD36B22E1FEE500A7007D /* Sources */,
+				114CD36C22E1FEE500A7007D /* Frameworks */,
+				114CD36D22E1FEE500A7007D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				114CD37122E1FEE500A7007D /* PBXTargetDependency */,
+			);
+			name = MagWebUITests;
+			productName = MagWebUITests;
+			productReference = 114CD36F22E1FEE500A7007D /* MagWebUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		114CD34822E1FEE500A7007D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Alexander Hilchie-Pye";
+				TargetAttributes = {
+					114CD34F22E1FEE500A7007D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					114CD36322E1FEE500A7007D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 114CD34F22E1FEE500A7007D;
+					};
+					114CD36E22E1FEE500A7007D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 114CD34F22E1FEE500A7007D;
+					};
+				};
+			};
+			buildConfigurationList = 114CD34B22E1FEE500A7007D /* Build configuration list for PBXProject "MagWeb" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 114CD34722E1FEE500A7007D;
+			productRefGroup = 114CD35122E1FEE500A7007D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				114CD34F22E1FEE500A7007D /* MagWeb */,
+				114CD36322E1FEE500A7007D /* MagWebTests */,
+				114CD36E22E1FEE500A7007D /* MagWebUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		114CD34E22E1FEE500A7007D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114CD35E22E1FEE500A7007D /* LaunchScreen.storyboard in Resources */,
+				114CD35B22E1FEE500A7007D /* Assets.xcassets in Resources */,
+				114CD35922E1FEE500A7007D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		114CD36222E1FEE500A7007D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		114CD36D22E1FEE500A7007D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		114CD34C22E1FEE500A7007D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114CD35622E1FEE500A7007D /* ViewController.swift in Sources */,
+				114CD35422E1FEE500A7007D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		114CD36022E1FEE500A7007D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114CD36922E1FEE500A7007D /* MagWebTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		114CD36B22E1FEE500A7007D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114CD37422E1FEE500A7007D /* MagWebUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		114CD36622E1FEE500A7007D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 114CD34F22E1FEE500A7007D /* MagWeb */;
+			targetProxy = 114CD36522E1FEE500A7007D /* PBXContainerItemProxy */;
+		};
+		114CD37122E1FEE500A7007D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 114CD34F22E1FEE500A7007D /* MagWeb */;
+			targetProxy = 114CD37022E1FEE500A7007D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		114CD35722E1FEE500A7007D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				114CD35822E1FEE500A7007D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		114CD35C22E1FEE500A7007D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				114CD35D22E1FEE500A7007D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		114CD37622E1FEE500A7007D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		114CD37722E1FEE500A7007D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		114CD37922E1FEE500A7007D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MagWeb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilchie-Innovations.MagWeb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		114CD37A22E1FEE500A7007D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MagWeb/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilchie-Innovations.MagWeb";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		114CD37C22E1FEE500A7007D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87NXPC4PSN;
+				INFOPLIST_FILE = MagWebTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilchie-Innovations.MagWebTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagWeb.app/MagWeb";
+			};
+			name = Debug;
+		};
+		114CD37D22E1FEE500A7007D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87NXPC4PSN;
+				INFOPLIST_FILE = MagWebTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilchie-Innovations.MagWebTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagWeb.app/MagWeb";
+			};
+			name = Release;
+		};
+		114CD37F22E1FEE500A7007D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87NXPC4PSN;
+				INFOPLIST_FILE = MagWebUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilchie-Innovations.MagWebUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagWeb;
+			};
+			name = Debug;
+		};
+		114CD38022E1FEE500A7007D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87NXPC4PSN;
+				INFOPLIST_FILE = MagWebUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilchie-Innovations.MagWebUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagWeb;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		114CD34B22E1FEE500A7007D /* Build configuration list for PBXProject "MagWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				114CD37622E1FEE500A7007D /* Debug */,
+				114CD37722E1FEE500A7007D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		114CD37822E1FEE500A7007D /* Build configuration list for PBXNativeTarget "MagWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				114CD37922E1FEE500A7007D /* Debug */,
+				114CD37A22E1FEE500A7007D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		114CD37B22E1FEE500A7007D /* Build configuration list for PBXNativeTarget "MagWebTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				114CD37C22E1FEE500A7007D /* Debug */,
+				114CD37D22E1FEE500A7007D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		114CD37E22E1FEE500A7007D /* Build configuration list for PBXNativeTarget "MagWebUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				114CD37F22E1FEE500A7007D /* Debug */,
+				114CD38022E1FEE500A7007D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 114CD34822E1FEE500A7007D /* Project object */;
+}
