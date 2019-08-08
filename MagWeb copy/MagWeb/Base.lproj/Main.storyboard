@@ -70,21 +70,16 @@
                             <constraint firstItem="tgf-Ww-36O" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="yKT-de-qm9"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <connections>
-                            <outlet property="dataOutlet" destination="Tig-3Q-Y9q" id="z1B-4s-oHI"/>
-                            <outlet property="tableeeview" destination="Tig-3Q-Y9q" id="8kg-MT-rD5"/>
-                            <outlet property="volts" destination="Tig-3Q-Y9q" id="LAh-xf-eP6"/>
-                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="174" y="-486"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Table View-->
         <scene sceneID="VAw-WJ-EYg">
             <objects>
-                <tableViewController id="HzB-4p-9Zt" sceneMemberID="viewController">
+                <tableViewController id="HzB-4p-9Zt" customClass="TableView" customModule="MagWeb" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="7Xq-6e-OfH">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="348"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -245,15 +240,6 @@
                                 </cells>
                             </tableViewSection>
                         </sections>
-                        <connections>
-                            <outlet property="ampsOutlet" destination="yFd-LH-Yw2" id="bk4-wx-eIg"/>
-                            <outlet property="asdfgh" destination="2tD-FI-HLw" id="Mtb-AM-SHm"/>
-                            <outlet property="dataSource" destination="HzB-4p-9Zt" id="Oad-xv-McO"/>
-                            <outlet property="delegate" destination="HzB-4p-9Zt" id="ZWW-cY-RUg"/>
-                            <outlet property="sNumberOutlet" destination="naa-E9-m5c" id="S45-Dh-nKd"/>
-                            <outlet property="statusOutlet" destination="rOx-uJ-MMQ" id="eHF-1f-F65"/>
-                            <outlet property="wattsOutlet" destination="MAz-AJ-spZ" id="0Md-hz-U9U"/>
-                        </connections>
                     </tableView>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dpa-Sd-Rg1" userLabel="First Responder" sceneMemberID="firstResponder"/>

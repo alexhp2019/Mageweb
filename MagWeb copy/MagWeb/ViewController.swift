@@ -18,25 +18,19 @@ class ViewController: UIViewController {
 
 }
 
-class TableView{
-    
+class TableView: UITableViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
 }
 
 class DisplayData{
-    @IBOutlet weak var dataOutlet: UIView!
-    @IBOutlet weak var voltsOutlet: UILabel!
-    @IBOutlet weak var ampsOutlet: UILabel!
-    @IBOutlet weak var wattsOutlet: UILabel!
-    @IBOutlet weak var statusOutlet: UILabel!
-    @IBOutlet weak var sNumberOutlet: UILabel!
-    
     var volts = 50;
     var amps = 100;
     var watts = 150;
     var sNumber = 12345;
     var status = "inverting";
-    
-    
 }
 
 let dataTable:DisplayData = DisplayData();
